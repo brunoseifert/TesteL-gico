@@ -37,7 +37,7 @@ function inverterNome() {
     "mensagemResultadoNome"
   );
 
-  if (nomeDoFormulario.trim() === "") {
+  if (!isNaN(nomeDoFormulario) || nomeDoFormulario.trim() === "") {
     mensagemResultadoNome.textContent = "Por favor, insira um nome válido.";
   } else {
     let nomeInvertido = "";
