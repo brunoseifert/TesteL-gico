@@ -18,3 +18,5 @@ function verificaFibonacci(numero) {
 const numeroTeste = 12;
 const resultado = verificaFibonacci(numeroTeste);
 console.log(resultado);
+
+// para ver o resultado basta rodar o código com o comando no terminal "node 02"
